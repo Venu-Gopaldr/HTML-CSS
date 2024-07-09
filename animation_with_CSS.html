@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation with CSS</title>
+    <style>
+      div {
+        width: 100px;
+        height: 100px;
+        background-color: orangered;
+        animation-name: example;
+        animation-duration: 10s;
+      }
+      @keyframes example {
+        from {
+          background-color: coral;
+        }
+        to {
+          background-color: yellow;
+        }
+      }
+      p {
+        animation-duration: 10s;
+        animation-name: slidein;
+        animation-timing-function: ease-in-out;
+        animation-duration: alternate;
+      }
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 200%;
+        }
+        50% {
+          font-size: 400%;
+          margin-left: 20%;
+          width: 100%;
+        }
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <center><div></div></center>
+    <p>
+      note : animation is a method by which still figures ae manipulated to
+      appear as moving images.In traditional animation,images are drawn or
+      painted by hand on... 
+    </p>
+  </body>
+</html>

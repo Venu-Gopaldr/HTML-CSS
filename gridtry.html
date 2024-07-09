@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: grid;
+        grid-template-areas:
+          "header header header"
+          "nav article ads"
+          "footer footer footer";
+        grid-template-rows: 150px 1fr 100px; /* fraction or frame */
+        grid-template-columns: 10% 1fr 15%;
+        grid-row-gap: 1px;
+        grid-column-gap: 1px;
+        height: 130vh; /*  verticle height */
+      }
+      header,
+      footer,
+      article,
+      nav {
+        padding: 2em; /*  element size */
+        background-color: aliceblue;
+      }
+      #pageheader {
+        background-color: rgb(78, 74, 74);
+        font-size: 20px;
+        padding: 5px;
+        text-align: center;
+        grid-area: header;
+      }
+      #mainarticle {
+        color: orangered;
+        text-align: center;
+        grid-area: article;
+        line-height: 3px;
+        /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcE8UZVlQ9WuWwY6qIURqAF1RB5rsm5k7uTrP1nenVganuocZ29M-Fw9LnQLqA_XMinlSk__G6BYk&usqp=CAU&ec=48600112"); */
+        background-size: cover;
+        background-position: center;
+      }
+      #mainnav {
+        background-color: silver;
+        color: red;
+        grid-area: nav;
+      }
+      #pagefooter {
+        grid-area: footer;
+      }
+      .siteads {
+        background-color: chartreuse;
+        /* background-image: url("https://i.pinimg.com/originals/d1/00/c4/d100c475d90a72fd3be1fd3ec60d50e9.jpg");
+        background-size: cover;
+        background-position: center; */
+        grid-area: ads;
+      }
+      .gtch {
+        background-color: black;
+        color: blanchedalmond;
+        padding: 25px;
+      }
+      .copy {
+        background-color: orange;
+        color: black;
+        text-align: center;
+        padding: 5px;
+        letter-spacing: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="pageheader">
+      <div class="head">
+        <h2>
+          UBDT College of Engineering,Davanagere - 577004,karnataka - india
+        </h2>
+        <h6>
+          (A Constituent College of Vishvesvaraya Technological
+          University,belagivi)
+        </h6>
+      </div>
+    </header>
+    <article id="mainarticle">
+      <br />
+      <center>
+        <marquee behavior="" direction="up"
+          ><h2>1951</h2>
+          <br />
+          <h1>YEAR OF ESTABLISHMENT</h1>
+          <br />
+          <h2>7</h2>
+          <br />
+          <h1>UG BRANCHES</h1>
+          <br />
+          <h2>9</h2>
+          <br />
+          <h1>PG BRANCHES</h1></marquee
+        >
+      </center>
+    </article>
+    <nav id="mainnav">
+      <div class="nav">
+        <a href="https://www.ubdtce.org/index.php" target="_blank">HOME</a
+        ><br /><br />
+        <a href="https://www.ubdtce.org/about.php" target="_blank"
+          >about institute</a
+        ><br /><br />
+        <a href="https://www.ubdtce.org/UG_Admission.php" target="_blank"
+          >admissiion</a
+        ><br /><br />
+        <a href="https://vtu.ac.in/en/academic-calendar/" target="_blank"
+          >academics</a
+        ><br /><br />
+        <a href="https://www.ubdtce.org/Placement.php" target="_blank"
+          >training and placement</a
+        >
+      </div>
+    </nav>
+    <div class="siteads">Ads</div>
+    <footer id="pagefooter">
+      <div class="gtch">
+        <h1>GET IN TOUCH</h1>
+        <h5>Hadadi Road,Post Box No.304,</h5>
+        <h5>Davanagere-577004.Karnataka</h5>
+        <h5>E-mail:Principalubdt@gamil.com</h5>
+        <h5>Off:08192-250716 Fax:08192-233412</h5>
+      </div>
+      <div class="copy">
+        <h6>Copyright 2022 - All Rights Reserved - ubdtce.org</h6>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Document</title>
+    <style>
+        .fix{
+            color: bisque;
+            background-color: brown;
+            position: fixed;
+            top: 50%;
+            right: 0px;
+            border-radius: 20px 0 0 20px;
+        }
+        .fix a{
+            color: bisque;
+        }
+        div{
+            font-size: 30px;
+            padding: 20px;
+        }
+        .abs{
+            color: red;
+            background-color: white;
+            position: absolute;
+            top: 50%;
+        }
+        .abs:hover .text{
+            display: block;
+        }
+        .text{
+            display: none;
+            color: black;
+            background-color: white;
+            position: absolute;
+            top: 90%;
+            left: 50px;
+            padding: 70px;
+            border: 2px solid black;
+            border-radius: 100%;
+
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>style the text on picture</h1>
+
+    <div class="images">
+        <img src="https://i.insider.com/6335b83fd0bea6001869b34c?width=1136&format=jpeg" alt="error" width="1400px">
+        <div class="abs">
+            BILL GATES THE POINEER!!
+            <div class="text">
+                success is a lousy teacher. it seduces smart people into thinking they can't loose.
+            </div>
+        </div>
+    </div>
+
+    <div class="fix">
+        <a href="/day10.html"><i class="fa fa-phone"></i></a>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .a {
+        background-color: aqua;
+        width: 100px;
+        height: 100px;
+
+        position: relative;
+        animation-name: vg;
+        animation-duration: 10s;
+      }
+      .b {
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+
+        position: relative;
+        animation-name: vg1;
+        animation-duration: 10s;
+      }
+      .c {
+        background-color: chartreuse;
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+
+        position: relative;
+        animation-name: vg2;
+        animation-duration: 10s;
+      }
+      .d {
+        background-color: darkgreen;
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+
+        position: relative;
+        animation-name: vg3;
+        animation-duration: 10s;
+      }
+      @keyframes vg {
+        0% {
+          background-color: aqua;
+          top: 0px;
+          left: 0px;
+        }
+        25% {
+          background-color: chartreuse;
+          top: 0px;
+          left: 200px;
+        }
+        50% {
+          background-color: darkblue;
+          top: 200px;
+          left: 200px;
+        }
+        75% {
+          background-color: slateblue;
+          top: 200px;
+          left: 0px;
+        }
+      }
+      @keyframes vg1 {
+        0% {
+          background-color: blue;
+          top: 0px;
+          left: 0px;
+        }
+        25% {
+          background-color: darkblue;
+          top: 0px;
+          left: 200px;
+        }
+        50% {
+          background-color: violet;
+          top: 200px;
+          left: 200px;
+        }
+        75% {
+          background-color: maroon;
+          top: 200px;
+          left: 0px;
+        }
+      }
+      @keyframes vg2 {
+        0% {
+          background-color: chartreuse;
+          top: 0px;
+          left: 0px;
+        }
+        25% {
+          background-color: maroon;
+          top: 0px;
+          left: 200px;
+        }
+        50% {
+          background-color: hotpink;
+          top: 200px;
+          left: 200px;
+        }
+        75% {
+          background-color: violet;
+          top: 200px;
+          left: 0px;
+        }
+      }
+      @keyframes vg3 {
+        0% {
+          background-color: chartreuse;
+          top: 0px;
+          left: 0px;
+        }
+        25% {
+          background-color: maroon;
+          top: 0px;
+          left: 200px;
+        }
+        50% {
+          background-color: hotpink;
+          top: 200px;
+          left: 200px;
+        }
+        75% {
+          background-color: violet;
+          top: 200px;
+          left: 0px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <div class="a"></div>
+      <div class="b"></div>
+      <div class="c"></div>
+      <div class="d"></div>
+    </center>
+  </body>
+</html>

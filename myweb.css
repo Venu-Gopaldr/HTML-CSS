@@ -1,0 +1,58 @@
+.founders {
+    border-bottom: 10px solid green;
+    border-top: 10px solid green;
+  }
+  .img1,
+  .img2,
+  .img3 {
+    margin-bottom: 100px;
+    border: 3px solid yellow;
+    border-radius: 50px;
+    margin-left: 50px;
+  }
+  .founders img:hover {
+    opacity: 0.5;
+  }
+
+  .info {
+    font-size: x-large;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-left: 5px solid red;
+    border-right: 5px solid red;
+    padding: 25px;
+  }
+  .here {
+    border-radius: 100%;
+    width: 10%;
+    padding: 10%;
+    text-align: center;
+    background-color: blueviolet;
+    margin: auto;
+  }
+  .list {
+    font-size: larger;
+  }
+  li::before {
+    content: "\219E";
+    margin-right: 20px;
+  }
+  .list {
+    color: brown;
+    padding: 20px;
+  }
+
+  .ans {
+    font-size: 30px;
+    margin-left: 30px;
+  }
+  .ans a {
+    background-color: green;
+    padding: 10px;
+  }
+
+  .ans a:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+  }
